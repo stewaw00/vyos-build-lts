@@ -24,10 +24,10 @@ jobs:
       # Ref: https://docs.vyos.io/en/latest/contributing/build-vyos.html#build
       image: vyos/vyos-build:sagitta
       env:
-        TZ: Asia/Tokyo
+        TZ: Europe/London
       options: --privileged
     env:
-      TZ: Asia/Tokyo
+      TZ: Europe/London
     permissions:
       actions: read
       contents: write
